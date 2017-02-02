@@ -1,2 +1,4 @@
-# HackerRankProblems
-This repository contains various problems and solution from HackerRank.com
+# Hacker Rank Problems
+This repository contains various solutions to problems from HackerRank.com
+
+
