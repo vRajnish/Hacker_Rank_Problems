@@ -14,6 +14,8 @@ int main() {
         array.push_back(num);
     }
 
+    // Moves last item to beginning of vector and shifts all other items to the right
+    // by 1 index. Called a right circular rotation.
     for(int i = 1; i <= opTimes; i++) {
         std::rotate(array.begin(), array.end()-1, array.end());
     }
