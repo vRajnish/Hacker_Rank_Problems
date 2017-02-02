@@ -13,6 +13,7 @@ int main() {
         compliments.insert(number);
     }
     
+    // Searchs the set for the compliment needed to create the specified difference
     for (auto it = compliments.begin(); it != compliments.end(); ++it) {
         if (compliments.find(*it + difference) != compliments.end()) 
             pairs++;
