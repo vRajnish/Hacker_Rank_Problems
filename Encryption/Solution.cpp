@@ -13,9 +13,8 @@ int main() {
     if(rows*columns < length)
         rows = columns;
 
-    // Sifts through the sentence as if it were a linear 2D array where
-    // the columns are stored consecutively. In this case the columns
-    // are the answers to the encryption being requested.
+    // Sifts through the sentence as if it were a linear 2D array,
+    // with the indexing return the columns of the sentence.
     for(int i = 0; i < columns; ++i) {
         for(int j = 0; j < rows; ++j) {
             if(i + j * columns < length)
